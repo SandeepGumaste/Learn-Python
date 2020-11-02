@@ -9,7 +9,7 @@ while True :
     ad = '-x-x-x-x-x-x-x-'
     ae = '-x-x-x-x-x-x-x-'
     af = '-x-x-x-x-x-x-x-'
-    xy = [a,b,c,d,e,ab,ac,ad,ae,af]
+    
     m = input('Enter number of people (max 5): ')
     try :
         m = int(m)
@@ -62,27 +62,26 @@ while True :
         print("\nWelcome ", c)
         print("\nWelcome ", d)
         print("\nWelcome ", e)
-
+    xy = [a,b,c,d,e,ab,ac,ad,ae,af]
     aa = input('Would you like to add more people?[y/n]\n')
     
     if  aa == 'y' :
-        ab = e
-        ac = d
+        ab = a
+        ac = b
         ad = c
-        ae = b
-        af = a
+        ae = d
+        af = e
         continue
     else :
         
-        print('\n Entered names of the people are as below \n')
-        
-    while xy in xy :
-        if xy == '-x-x-x-x-x-x-x-' :
-             continue
-        else :
-             print(xy)
-             
-    print("\nAll Done")
+        print(xy)
+        # while xy in xy :
+        #     if xy == '-x-x-x-x-x-x-x-' :
+        #         print(xy)
+        #     else :
+        #         continue
+                    
+        #     print("\nAll Done")
     break    
 
     
