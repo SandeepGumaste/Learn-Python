@@ -14,4 +14,4 @@ while True :
     num = num + 1
     tot = tot + fval
 
-print(tot,num,tot/num)
+print("Total: ",tot,"\nCount: ",num,"\nAverage: ",tot/num)
