@@ -62,15 +62,16 @@ while True :
     aa = input('Would you like to add more people?[y/n]\n')
 
     if  aa == 'y' :
-        ab = a
-        ac = b
+        ab = e
+        ac = d
         ad = c
-        ae = d
-        af = e
+        ae = b
+        af = a
         
         continue
 
     elif aa == 'n' :
+        print('Entered names of the people \n')
         print(' 1', a,'\n 2', b,'\n 3', c,'\n 4', d,'\n 5', e,'\n 6', ab,'\n 7', ac,'\n 8', ad,'\n 9', ae,'\n 10', af)
         print("\nAll Done")
         break
