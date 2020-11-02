@@ -1,4 +1,15 @@
 while True :
+    a = '-x-x-x-x-x-x-x-'
+    b = '-x-x-x-x-x-x-x-'
+    c = '-x-x-x-x-x-x-x-'
+    d = '-x-x-x-x-x-x-x-'
+    e = '-x-x-x-x-x-x-x-'
+    ab = '-x-x-x-x-x-x-x-'
+    ac = '-x-x-x-x-x-x-x-'
+    ad = '-x-x-x-x-x-x-x-'
+    ae = '-x-x-x-x-x-x-x-'
+    af = '-x-x-x-x-x-x-x-'
+    xy = [a,b,c,d,e,ab,ac,ad,ae,af]
     m = input('Enter number of people (max 5): ')
     try :
         m = int(m)
@@ -13,25 +24,18 @@ while True :
 
     if m == 1 :
         a = input('Enter your name: ')
-        b = '-x-x-x-x-x-x-x-'
-        c = '-x-x-x-x-x-x-x-'
-        d = '-x-x-x-x-x-x-x-'
-        e = '-x-x-x-x-x-x-x-'
         print("\nWelcome ", a)
     elif m == 2 :
         a = input('Enter your name: ')
         b = input('Enter your name: ')
-        c = '-x-x-x-x-x-x-x-'
-        d = '-x-x-x-x-x-x-x-'
-        e = '-x-x-x-x-x-x-x-'
+        
         print("\nWelcome ", a)
         print("\nWelcome ", b)
     elif m == 3 :
         a = input('Enter your name: ')
         b = input('Enter your name: ')
         c = input('Enter your name: ')
-        d = '-x-x-x-x-x-x-x-'
-        e = '-x-x-x-x-x-x-x-'
+        
         print("\nWelcome ", a)
         print("\nWelcome ", b)
         print("\nWelcome ", c)
@@ -40,7 +44,7 @@ while True :
         b = input('Enter your name: ')
         c = input('Enter your name: ')
         d = input('Enter your name: ')
-        e = '-x-x-x-x-x-x-x-'
+        
 
         print("\nWelcome ", a)
         print("\nWelcome ", b)
@@ -60,24 +64,26 @@ while True :
         print("\nWelcome ", e)
 
     aa = input('Would you like to add more people?[y/n]\n')
-
+    
     if  aa == 'y' :
         ab = e
         ac = d
         ad = c
         ae = b
         af = a
-        
         continue
-
-    elif aa == 'n' :
-        print('Entered names of the people \n')
-        print(' 1', a,'\n 2', b,'\n 3', c,'\n 4', d,'\n 5', e,'\n 6', ab,'\n 7', ac,'\n 8', ad,'\n 9', ae,'\n 10', af)
-        print("\nAll Done")
-        break
     else :
-        print("All done")
-        break
+        
+        print('\n Entered names of the people are as below \n')
+        
+    while xy in xy :
+        if xy == '-x-x-x-x-x-x-x-' :
+             continue
+        else :
+             print(xy)
+             
+    print("\nAll Done")
+    break    
 
     
 
