@@ -9,7 +9,7 @@ for e in e :
     print(d,"-",e)
 
 print('Enter a value less than or equal to',b)
-print('to exract the letter')
+print('to exract the letter\n')
 
 while True :
     c = input()
