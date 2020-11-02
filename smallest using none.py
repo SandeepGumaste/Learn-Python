@@ -1,10 +1,17 @@
 ssf = None
-l = [20,300,45,600,451,2,52]
-print(l)
+print('Enter 6 numbers to check the smallest among them\n')
+
+a = input()
+b = input()
+c = input()
+d = input()
+e = input()
+l =[int(a),int(b),int(c),int(d),int(e)]
+
 for l in l :
     if ssf is None :
         ssf = l
     elif l < ssf :
         ssf = l
 
-print('Smallest among the above numbers: ',ssf)
+print('Smallest among the entered numbers: ',ssf)
