@@ -5,3 +5,4 @@ ed = a[atpos+1 : ]
 
 print('Username:',un)
 print('email domain:',ed)
+
