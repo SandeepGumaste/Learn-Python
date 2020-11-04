@@ -1,3 +1,6 @@
+## Please enter a name of the file in the current directory
+## Here I was using mbox.txt and mbox-short.txt which I downloaded from py4e course
+# (Chapter 7)
 file = input("Enter the text file name to read: ")
 file = file + '.txt'
 srch = input('Enter the search word: ')
