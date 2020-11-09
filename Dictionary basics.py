@@ -14,5 +14,14 @@ for name in names :
         counts[name] = 1
     else :
         counts[name] = counts[name] + 1
-print(counts)
-print(list(counts)) ## Found that converting the dict to list removes duplicates and gives uniques.
+print(counts,'\n')
+print(len(counts), '\n')
+for key in counts :
+    print(key, counts[key])
+
+print('\n')
+print('\n\n',counts.keys(), counts.values())
+
+print('\n\n')
+for aaa,bbb in counts.items() :
+    print(aaa,bbb)
