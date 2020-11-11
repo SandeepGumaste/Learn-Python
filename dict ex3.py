@@ -22,3 +22,7 @@ for k,v in di.items():
         print('Number of e-mails received:',v)
     else:
         continue
+nlst = list(di.values())
+print(nlst)
+nlst.sort()
+print(nlst)
