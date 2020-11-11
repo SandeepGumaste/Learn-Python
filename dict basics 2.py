@@ -1,21 +1,27 @@
 txt = input('Enter file name: ')
 txt = txt + '.txt'
-p = 0
-q=0
-r = list()
-s = list()
-m = open(txt)
-n = dict()
-for lx in m :
-    q = q + 1
-    if lx.startswith('From') :
-        for ly in lx :
-            s.append(lx.split())
-            if s == 'Mon' or 'Tue' or 'Wed' or 'Thu' or 'Fri' or 'Sat' or 'Sun' :
-                r.append(s)
-            else :
-                continue
-        p = p + 1
-    else :
+fh = open(txt)
+find = input('Enter the string you want to find :')
+c = 0
+b = 0
+di = dict()
+for lx in fh:
+    c = c + 1
+    lx = lx.rstrip()
+    if len(lx) <= 1 :
+        b = b + 1
         continue
-print(r)
+    else:
+        wds = lx.split()
+    for ly in wds:
+        di[ly] = ly
+        ##Can be done using this commented way without using dictionary wich will also give the kine number
+        # if ly == find:
+        #     print('Found in line number',c)
+        #     break
+        # else:
+        #     continue
+if find in di:
+    print('Found')
+else:
+    pass
