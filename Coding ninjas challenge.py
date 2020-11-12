@@ -13,4 +13,4 @@ while z < l:
         m.append(y[z])
     z = z + 1
 s = ''.join(m)
-print(s)
+print('output:',s)
