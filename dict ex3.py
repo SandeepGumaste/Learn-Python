@@ -16,6 +16,8 @@ for lx in fh:
         lst.append(wds[1])
 for mail in lst:
     di[mail] = di.get(mail,0) + 1
+print(di.items())
+print(di.keys())
 for k,v in di.items():
     if v is max(di.values()):
         print('Max e-mails received fron :',k)
