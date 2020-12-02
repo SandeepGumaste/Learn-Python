@@ -1,4 +1,5 @@
 #DAY 8
+import 
 n = int(input())
 i = 0
 nl = list()
